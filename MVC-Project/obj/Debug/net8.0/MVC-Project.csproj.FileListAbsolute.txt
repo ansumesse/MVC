@@ -28,3 +28,4 @@ D:\Edu\BackEnd\MVC\Practise\MVC-Project\obj\Debug\net8.0\refint\MVC-Project.dll
 D:\Edu\BackEnd\MVC\Practise\MVC-Project\obj\Debug\net8.0\MVC-Project.pdb
 D:\Edu\BackEnd\MVC\Practise\MVC-Project\obj\Debug\net8.0\MVC-Project.genruntimeconfig.cache
 D:\Edu\BackEnd\MVC\Practise\MVC-Project\obj\Debug\net8.0\ref\MVC-Project.dll
+D:\Edu\BackEnd\MVC\Practise\MVC-Project\obj\Debug\net8.0\MVC-Project.sourcelink.json
