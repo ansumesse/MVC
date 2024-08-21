@@ -1,0 +1,28 @@
+﻿@model List<Instructor>
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Image</th>
+        <th>Salary</th>
+        <th>Address</th>
+        <th>Department ID</th>
+        <th>Course ID</th>
+    </tr>
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        <tr>
+            <td>@Model[i].ID</td>
+            <td> <a href="/Instructor/Details/@Model[i].ID">@Model[i].Name</a></td>
+            <td>@if (Model[i].Image != null)
+                {
+                    <img src="/Images/@Model[i].Image" style="width:100px" />
+                }
+            </td>
+            <td>@Model[i].Salary</td>
+            <td>@Model[i].Address</td>
+            <td>@Model[i].Dep_ID</td>
+            <td>@Model[i].Crs_ID</td>
+        </tr>
+    }
+</table>
