@@ -1,0 +1,17 @@
+﻿@model List<TraineeNameAndCrsNameAndDegreeViewModel>
+
+
+<h1>Details</h1>
+<h2>@Model[0].Id</h2>
+<h2>@Model[0].Name</h2>
+<table class="table table-bordered">
+    @foreach (var item in Model)
+    {
+        <tr style="color:@item.Color">
+            <td>@item.CrsName</td>
+            <td>@item.Degree</td>
+
+        </tr>
+    }
+</table>
+
