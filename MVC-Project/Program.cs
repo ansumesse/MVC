@@ -8,7 +8,7 @@ namespace MVC_Project
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddSession();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -21,7 +21,7 @@ namespace MVC_Project
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseSession();
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

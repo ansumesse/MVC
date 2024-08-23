@@ -1,0 +1,14 @@
+﻿@model TraineeNameAndCrsNameAndDegreeViewModel
+@{
+    ViewData["Title"] = "Course";
+}
+
+<h1>Course</h1>
+<table class="table table-bordered">
+    <tr style="color:@Model.Color">
+        <td>@Model.Id</td>
+        <td>@Model.Name</td>
+        <td>@Model.CrsName</td>
+        <td>@Model.Degree</td>
+    </tr>
+</table>

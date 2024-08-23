@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVC_Project.Models;
 using MVC_Project.ViewModels;
-
+using System.Text.Json;
 namespace MVC_Project.Controllers
 {
     public class TraineeController : Controller
@@ -9,17 +9,6 @@ namespace MVC_Project.Controllers
         TrainingAppDbContext Context = new TrainingAppDbContext();
         public IActionResult Details(int id)
         {
-            //Trainee trainee = Context.Trainees.FirstOrDefault(x => x.ID == id);
-            //Course course = Context.Courses.FirstOrDefault(x => x.Name == "C#");
-            //CrsResult result = Context.CrsResults.FirstOrDefault(x => x.Trainee_ID == id && x.Crs_ID == course.ID);
-            //TraineeNameAndCrsNameAndDegreeViewModel traineeDetails = new TraineeNameAndCrsNameAndDegreeViewModel()
-            //{
-            //    Id = id,
-            //    Name = trainee.Name,
-            //    CrsName = course.Name,
-            //    Degree = result.Degree,
-            //    Color = result.Degree > course.MinDegree ? "green" : "red"
-            //};
             var traineeDetails = Context.Trainees.Join(
                 Context.CrsResults,
                 t => t.ID,
@@ -38,6 +27,23 @@ namespace MVC_Project.Controllers
                     Color = x.Degree > cr.MinDegree ? "green" : "red"
                 }
                 ).Where(x => x.Id == id).ToList();
+
+            // Create TempData
+            //TempData.Add("trainee subject", "traineeDetails");
+
+            // Create Cookies
+            string str = JsonSerializer.Serialize(traineeDetails);
+            Response.Cookies.Append("trainee", str);
+
+            // Create Session
+            HttpContext.Session.SetString("key", "my name is Mohamed");
+
+            return View(traineeDetails);
+        }
+        public IActionResult Course(int id , string crsName)
+        {
+            var traineeDetails = JsonSerializer.Deserialize<List<TraineeNameAndCrsNameAndDegreeViewModel>>( Request.Cookies["trainee"])
+                .FirstOrDefault(x => x.Id == id && x.CrsName == crsName);
             return View(traineeDetails);
         }
         
