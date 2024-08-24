@@ -7,7 +7,7 @@ namespace MVC_Project.Controllers
     public class TraineeController : Controller
     {
         TrainingAppDbContext Context = new TrainingAppDbContext();
-        public IActionResult Details(int id)
+        public IActionResult Courses(int id)
         {
             var traineeDetails = Context.Trainees.Join(
                 Context.CrsResults,
@@ -40,11 +40,16 @@ namespace MVC_Project.Controllers
 
             return View(traineeDetails);
         }
-        public IActionResult Course(int id , string crsName)
+        public IActionResult Details(int id , string crsName)
         {
             var traineeDetails = JsonSerializer.Deserialize<List<TraineeNameAndCrsNameAndDegreeViewModel>>( Request.Cookies["trainee"])
                 .FirstOrDefault(x => x.Id == id && x.CrsName == crsName);
             return View(traineeDetails);
+        }
+        
+        public IActionResult NewCourse()
+        {
+            return View();
         }
         
     }

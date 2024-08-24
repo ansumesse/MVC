@@ -1,0 +1,39 @@
+﻿@model InstructorAndDepartmentNamesInDbViewModel
+@{
+    ViewData["Title"] = "New";
+}
+
+<h1>New</h1>
+
+<form action="/Instructor/SaveNew" method="post">
+    
+    <label>Name</label>
+    <input type="text" name="name" value="@Model.Name" class="form-check form-control"/>
+    
+    <label>Image</label>
+    <input type="text" name="Image" value="@Model.Image" class="form-check form-control" />
+    
+    <label>Salary</label>
+    <input type="number" name="Salary" value="@Model.Salary" class="form-check form-control" />
+    
+    <label>Address</label>
+    <input type="text" name="Address" value="@Model.Address" class="form-check form-control" />
+    
+    <label>Department</label>
+    <select name="Dep_ID" class="form-check form-control">
+        @foreach (var depName in Model.DepIdNames)
+        {
+            <option value="@depName.Key">@depName.Value</option>
+        }
+    </select >
+    
+    <label>Courses</label>
+    <select name="Crs_ID" class="form-check form-control">
+        @foreach (var CrsName in Model.CrsIdNames)
+        {
+            <option value="@CrsName.Key">@CrsName.Value</option>
+        }
+    </select >
+
+    <input type="submit" value="Add" class="form-check form-control" />
+</form>

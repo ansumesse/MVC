@@ -38,8 +38,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Edu/BackEnd/MVC/Practise/MVC-Project/Views/Instructor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Edu/BackEnd/MVC/Practise/MVC-Project/Views/Instructor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Edu/BackEnd/MVC/Practise/MVC-Project/Views/Instructor/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxOZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Edu/BackEnd/MVC/Practise/MVC-Project/Views/Shared/Error.cshtml]
@@ -58,12 +66,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdWRlbnRWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Edu/BackEnd/MVC/Practise/MVC-Project/Views/Trainee/Course.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxDb3Vyc2UuY3NodG1s
+[D:/Edu/BackEnd/MVC/Practise/MVC-Project/Views/Trainee/Courses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxDb3Vyc2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Edu/BackEnd/MVC/Practise/MVC-Project/Views/Trainee/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Edu/BackEnd/MVC/Practise/MVC-Project/Views/Trainee/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxOZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Edu/BackEnd/MVC/Practise/MVC-Project/Views/_ViewImports.cshtml]
