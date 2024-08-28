@@ -24,7 +24,7 @@ namespace MVC_Project.Controllers
 			var InstructorDeprtCrs = new InstructorAndDepartmentNamesInDbViewModel()
 			{
 				DepIdNames = context.Departments.Select(x => new {x.ID, x.Name}).ToDictionary(x => x.ID, x => x.Name),
-                CrsIdNames = context.Courses.Select(x => new {x.ID, x.Name}).ToDictionary(x => x.ID, x => x.Name),
+                CrsIdNames = context.Courses.Select(x => new {x.ID, x.Crs_Name}).ToDictionary(x => x.ID, x => x.Crs_Name),
 			};
 			return View(InstructorDeprtCrs);
 		}
@@ -63,7 +63,7 @@ namespace MVC_Project.Controllers
 				Image = instraEdited.Image,
 				Salary = instraEdited.Salary,
 				DepIdNames = context.Departments.Select(x => new { x.ID, x.Name }).ToDictionary(x => x.ID, x => x.Name),
-				CrsIdNames = context.Courses.Select(x => new { x.ID, x.Name }).ToDictionary(x => x.ID, x => x.Name)
+				CrsIdNames = context.Courses.Select(x => new { x.ID, x.Crs_Name }).ToDictionary(x => x.ID, x => x.Crs_Name)
 			};
 
             return View(instrinformation);
@@ -86,7 +86,7 @@ namespace MVC_Project.Controllers
 					return RedirectToAction("Index");
                 }
 			}
-			return RedirectToAction("Edit", newInstr);
+			return RedirectToAction("Edit", newInstr.ID);
 		}
 
     }

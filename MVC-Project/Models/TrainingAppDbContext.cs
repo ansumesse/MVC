@@ -38,10 +38,12 @@ namespace MVC_Project.Models
 				.HasKey(x => x.ID);
 			modelBuilder.Entity<Course>()
 				.HasMany(x => x.Instructors)
-				.WithOne(x => x.Course);
+				.WithOne(x => x.Course)
+				.OnDelete(DeleteBehavior.SetNull);
 			modelBuilder.Entity<Course>()
 				.HasMany(x => x.CrsResults)
-				.WithOne(x => x.Course);
+				.WithOne(x => x.Course)
+				.OnDelete(DeleteBehavior.SetNull);
 			modelBuilder.Entity<Course>()
 				.HasOne(x => x.Department)
 				.WithMany(x => x.Courses)

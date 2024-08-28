@@ -1,0 +1,26 @@
+﻿@model CourseWithDepNamesViewModel
+@{
+    ViewData["Title"] = "Edit";
+    SelectList deparments = new SelectList(Model.Departments, "ID", "Name");
+}
+
+<h1>Edit</h1>
+
+<form asp-controller="Course" asp-action="SaveEdit" asp-route-id="@Model.Crs_ID" method="post">
+    
+    <label asp-for="Crs_Name" ></label>
+    <input asp-for="Crs_Name" class="form-check form-control" />
+
+    <label asp-for="Degree"></label>
+    <input asp-for="Degree" class="form-check form-control" />
+
+    <label asp-for="MinDegree"></label>
+    <input asp-for="MinDegree" class="form-check form-control" />
+    
+    <label asp-for="Dep_ID"></label>
+    <select asp-for="Dep_ID" asp-items="deparments" class="form-check form-control">
+    
+    </select>
+
+    <input type="submit" value="Edit"  class="btn btn-success" />
+</form>

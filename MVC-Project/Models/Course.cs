@@ -3,7 +3,7 @@
 	public class Course
 	{
 		public int ID { get; set; }
-		public string Name { get; set; }
+		public string Crs_Name { get; set; }
 		public int Degree { get; set; }
         public int MinDegree { get; set; }
 		public int? Dep_ID { get; set; }

@@ -22,7 +22,7 @@ namespace MVC_Project.Controllers
                 {
                     Id = x.ID,
                     Name = x.Name,
-                    CrsName = cr.Name,
+                    CrsName = cr.Crs_Name,
                     Degree = x.Degree,
                     Color = x.Degree > cr.MinDegree ? "green" : "red"
                 }

@@ -4,6 +4,7 @@ using MVC_Project.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MVC_Project.Migrations
 {
     [DbContext(typeof(TrainingAppDbContext))]
-    partial class TrainingAppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240828183820_CourseOnDeleteToSetNull")]
+    partial class CourseOnDeleteToSetNull
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -193,8 +196,7 @@ namespace MVC_Project.Migrations
                 {
                     b.HasOne("MVC_Project.Models.Course", "Course")
                         .WithMany("Instructors")
-                        .HasForeignKey("Crs_ID")
-                        .OnDelete(DeleteBehavior.SetNull);
+                        .HasForeignKey("Crs_ID");
 
                     b.HasOne("MVC_Project.Models.Department", "Department")
                         .WithMany("Instructors")

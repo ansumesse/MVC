@@ -1,0 +1,25 @@
+﻿@model CourseWithDepNamesViewModel
+@{
+    ViewData["Title"] = "New";
+    SelectList options = new SelectList(Model.Departments, "ID", "Name");
+}
+
+<h1>New</h1>
+
+<form asp-action="SaveNew" asp-controller="Course" method="post">
+    <label asp-for="Crs_Name"></label>
+    <input asp-for="Crs_Name" class="form-check form-control"/>
+
+    <label asp-for="Degree"></label>
+    <input asp-for="Degree" class="form-check form-control" />
+
+    <label asp-for="MinDegree"></label>
+    <input asp-for="MinDegree" class="form-check form-control" />
+
+    <label asp-for="Dep_ID"></label>
+    <select asp-items="options" class="form-check form-control">
+    </select>
+
+    <input type="submit" value="Save" class="btn btn-success" />
+</form>
+
