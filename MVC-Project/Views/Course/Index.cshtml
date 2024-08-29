@@ -1,30 +1,33 @@
 ﻿@model List<Course>
 @{
     ViewData["Title"] = "Index";
+    
 }
-
-<h1>All Courses</h1>
-<a href="/Course/New" class="btn btn-primary">New</a/>
-<table class="table table-bordered" >
-    <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Degree</th>
-        <th>Minimum Degree</th>
-        <th>Dep_ID</th>
-    </tr>
-    @foreach (Course course in Model)
-    {
+@section Course{
+        <h1>All Courses</h1>
+    <a href="/Course/New" class="btn btn-primary">New</a/>
+    <table class="table table-bordered" >
         <tr>
-            <td>@course.ID</td>
-            <td>@course.Crs_Name</td>
-            <td>@course.Degree</td>
-            <td>@course.MinDegree</td>
-            <td>@course.Dep_ID</td>
-            <td> <a href="/Course/Edit/@course.ID" class="btn btn-primary">Edit</a/></td>
-            <td> <a href="/Course/Delete/@course.ID" class="btn btn-primary">Delete</a/></td>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Degree</th>
+            <th>Minimum Degree</th>
+            <th>Dep_ID</th>
         </tr>
-    }
+        @foreach (Course course in Model)
+        {
+                <tr>
+                    <td>@course.ID</td>
+                    <td>@course.Crs_Name</td>
+                    <td>@course.Degree</td>
+                    <td>@course.MinDegree</td>
+                    <td>@course.Dep_ID</td>
+                    <td> <a href="/Course/Edit/@course.ID" class="btn btn-primary">Edit</a/></td>
+                    <td> <a href="/Course/Delete/@course.ID" class="btn btn-primary">Delete</a/></td>
+                </tr>
+        }
 
-</table>
+    </table>
+
+}
 
