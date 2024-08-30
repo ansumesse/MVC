@@ -56,13 +56,29 @@ namespace MVC_Project.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult SaveNew(Course course)
         {
-            if(course.Crs_Name != null)
+            if(ModelState.IsValid)
             {
                 context.Courses.Add(course);
                 context.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return RedirectToAction("New");
+            CourseWithDepNamesViewModel courseVM = new CourseWithDepNamesViewModel()
+            {
+                Crs_Name = course.Crs_Name,
+                Degree = course.Degree,
+                MinDegree = course.MinDegree,
+                Dep_ID = course.Dep_ID,
+                Departments = context.Departments.ToList()
+            };
+            return View("New", courseVM);
+        }
+        public IActionResult CheckMinDegLessThanDegree(int MinDegree, int Degree)
+        {
+            if (MinDegree < Degree)
+            {
+                return Json(true);
+            }
+            return Json(false);
         }
         public IActionResult Delete(int id)
         {

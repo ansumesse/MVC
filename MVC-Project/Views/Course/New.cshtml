@@ -7,19 +7,34 @@
 <h1>New</h1>
 
 <form asp-action="SaveNew" asp-controller="Course" method="post">
-    <label asp-for="Crs_Name"></label>
-    <input asp-for="Crs_Name" class="form-check form-control"/>
-
-    <label asp-for="Degree"></label>
-    <input asp-for="Degree" class="form-check form-control" />
-
-    <label asp-for="MinDegree"></label>
-    <input asp-for="MinDegree" class="form-check form-control" />
-
-    <label asp-for="Dep_ID"></label>
-    <select asp-items="options" class="form-check form-control">
-    </select>
-
+    <div asp-validation-summary="All"></div>
+    <div>
+        <label asp-for="Crs_Name"></label>
+        <input asp-for="Crs_Name" class="form-check form-control" />
+        <span class="text-danger" asp-validation-for="Crs_Name"></span>
+    </div>
+    <div>
+        <label asp-for="Degree"></label>
+        <input asp-for="Degree" class="form-check form-control" />
+        <span class="text-danger" asp-validation-for="Degree"></span>
+    </div>
+    <div>
+        <label asp-for="MinDegree"></label>
+        <input asp-for="MinDegree" class="form-check form-control" />
+        <span class="text-danger" asp-validation-for="MinDegree"></span>
+    </div>
+    <div>
+        <label asp-for="Dep_ID"></label>
+        <select asp-for="Dep_ID" asp-items="options" class="form-check form-control">
+        </select>
+        <span class="text-danger" asp-validation-for="Dep_ID"></span>
+    </div>
     <input type="submit" value="Save" class="btn btn-success" />
 </form>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
 
