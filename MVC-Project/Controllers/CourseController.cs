@@ -31,7 +31,7 @@ namespace MVC_Project.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult SaveEdit(int id, Course editedCourse)
         {
-            if(editedCourse.Crs_Name != null)
+            if(ModelState.IsValid)
             {
                 Course oldCourse = context.Courses.FirstOrDefault(x => x.ID == id);
                 oldCourse.Crs_Name = editedCourse.Crs_Name;
@@ -41,7 +41,16 @@ namespace MVC_Project.Controllers
                 context.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return RedirectToAction("Edit", editedCourse);
+            CourseWithDepNamesViewModel courseVM = new CourseWithDepNamesViewModel()
+            {
+                Crs_ID = editedCourse.ID,
+                Crs_Name = editedCourse.Crs_Name,
+                MinDegree = editedCourse.MinDegree,
+                Degree = editedCourse.Degree,
+                Dep_ID = editedCourse.Dep_ID,
+                Departments = context.Departments.ToList()
+            };
+            return View("Edit", courseVM);
 
         }
         public IActionResult New()

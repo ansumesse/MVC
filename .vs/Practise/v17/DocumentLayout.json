@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\Edu\\BackEnd\\MVC\\Practise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\views\\shared\\_navpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\views\\shared\\_navpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\models\\uniquecrsnamebydepartmentattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\models\\uniquecrsnamebydepartmentattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\viewmodels\\coursewithdepnamesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\viewmodels\\coursewithdepnamesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\views\\course\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\views\\course\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +38,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CourseWithDepNamesViewModel.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\ViewModels\\CourseWithDepNamesViewModel.cs",
-              "RelativeDocumentMoniker": "MVC-Project\\ViewModels\\CourseWithDepNamesViewModel.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\ViewModels\\CourseWithDepNamesViewModel.cs",
-              "RelativeToolTip": "MVC-Project\\ViewModels\\CourseWithDepNamesViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T19:23:53.348Z",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC-Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC-Project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-31T19:56:53.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_NavPartial.cshtml",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Shared\\_NavPartial.cshtml",
+              "RelativeDocumentMoniker": "MVC-Project\\Views\\Shared\\_NavPartial.cshtml",
+              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Shared\\_NavPartial.cshtml",
+              "RelativeToolTip": "MVC-Project\\Views\\Shared\\_NavPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-31T19:56:43.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UniqueCrsNameByDepartmentAttribute.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Models\\UniqueCrsNameByDepartmentAttribute.cs",
+              "RelativeDocumentMoniker": "MVC-Project\\Models\\UniqueCrsNameByDepartmentAttribute.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Models\\UniqueCrsNameByDepartmentAttribute.cs",
+              "RelativeToolTip": "MVC-Project\\Models\\UniqueCrsNameByDepartmentAttribute.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T00:21:31.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Course\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVC-Project\\Views\\Course\\Edit.cshtml",
+              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Course\\Edit.cshtml",
+              "RelativeToolTip": "MVC-Project\\Views\\Course\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-31T00:13:48.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Course.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Models\\Course.cs",
               "RelativeDocumentMoniker": "MVC-Project\\Models\\Course.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Models\\Course.cs",
               "RelativeToolTip": "MVC-Project\\Models\\Course.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvwkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T16:12:25.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T16:12:25.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "New.cshtml",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Course\\New.cshtml",
               "RelativeDocumentMoniker": "MVC-Project\\Views\\Course\\New.cshtml",
               "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Course\\New.cshtml",
               "RelativeToolTip": "MVC-Project\\Views\\Course\\New.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T10:38:40.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T10:38:40.716Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CourseController.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "MVC-Project\\Controllers\\CourseController.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Controllers\\CourseController.cs",
               "RelativeToolTip": "MVC-Project\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAcwDkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T06:56:18.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T06:56:18.456Z"
             }
           ]
         }

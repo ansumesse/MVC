@@ -15,6 +15,8 @@ namespace MVC_Project.Models
                 {
                     return ValidationResult.Success;
                 }
+                if(course.ID != 0)
+                    return ValidationResult.Success;
                 return new ValidationResult("Course Name is already exists");
             }
             
