@@ -2,20 +2,22 @@
 using MVC_Project.Migrations;
 using MVC_Project.Models;
 using MVC_Project.ViewModels;
+using MVC_Project.Reposetory;
 
 namespace MVC_Project.Controllers
 {
     public class CourseController : Controller
     {
-        TrainingAppDbContext context = new TrainingAppDbContext();
+        ICourseRepo context = new CourseRepo();
         public IActionResult Index()
         {
-            var courses = context.Courses.ToList();
+            var courses = context.GetAll();
+            context.GetAllDepartments();
             return View(courses);
         }
         public IActionResult Edit(int id)
         {
-            Course course = context.Courses.FirstOrDefault(x => x.ID == id);
+            Course course = context.GetById(id);
             CourseWithDepNamesViewModel courseEdited = new CourseWithDepNamesViewModel()
             {
                 Crs_ID = course.ID,
@@ -23,7 +25,7 @@ namespace MVC_Project.Controllers
                 MinDegree = course.MinDegree,
                 Degree = course.Degree,
                 Dep_ID = course.Dep_ID,
-                Departments = context.Departments.ToList()
+                Departments = context.GetAllDepartments()
             };
             return View(courseEdited);
         }
@@ -33,12 +35,7 @@ namespace MVC_Project.Controllers
         {
             if(ModelState.IsValid)
             {
-                Course oldCourse = context.Courses.FirstOrDefault(x => x.ID == id);
-                oldCourse.Crs_Name = editedCourse.Crs_Name;
-                oldCourse.Dep_ID = editedCourse.Dep_ID;
-                oldCourse.Degree = editedCourse.Degree;
-                oldCourse.MinDegree = editedCourse.MinDegree;
-                context.SaveChanges();
+                context.Edit(id, editedCourse);
                 return RedirectToAction("Index");
             }
             CourseWithDepNamesViewModel courseVM = new CourseWithDepNamesViewModel()
@@ -48,7 +45,7 @@ namespace MVC_Project.Controllers
                 MinDegree = editedCourse.MinDegree,
                 Degree = editedCourse.Degree,
                 Dep_ID = editedCourse.Dep_ID,
-                Departments = context.Departments.ToList()
+                Departments = context.GetAllDepartments()
             };
             return View("Edit", courseVM);
 
@@ -57,7 +54,7 @@ namespace MVC_Project.Controllers
         {
             CourseWithDepNamesViewModel courseVM = new CourseWithDepNamesViewModel()
             {
-                Departments = context.Departments.ToList()
+                Departments = context.GetAllDepartments()
             };
             return View(courseVM);
         }
@@ -67,8 +64,7 @@ namespace MVC_Project.Controllers
         {
             if(ModelState.IsValid)
             {
-                context.Courses.Add(course);
-                context.SaveChanges();
+                context.Add(course);
                 return RedirectToAction("Index");
             }
             CourseWithDepNamesViewModel courseVM = new CourseWithDepNamesViewModel()
@@ -77,7 +73,7 @@ namespace MVC_Project.Controllers
                 Degree = course.Degree,
                 MinDegree = course.MinDegree,
                 Dep_ID = course.Dep_ID,
-                Departments = context.Departments.ToList()
+                Departments = context.GetAllDepartments()
             };
             return View("New", courseVM);
         }
@@ -91,9 +87,7 @@ namespace MVC_Project.Controllers
         }
         public IActionResult Delete(int id)
         {
-            var course = context.Courses.FirstOrDefault(c => c.ID == id);
-            context.Courses.Remove(course);
-            context.SaveChanges();
+            context.Delete(id);
 
             return RedirectToAction("Index");
         }
