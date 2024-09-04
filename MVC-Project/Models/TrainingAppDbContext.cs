@@ -4,7 +4,15 @@ namespace MVC_Project.Models
 {
 	public class TrainingAppDbContext : DbContext
 	{
-		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public TrainingAppDbContext():base()
+        {
+        }
+
+        public TrainingAppDbContext(DbContextOptions options) : base(options)
+        {
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 			optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=TrainingDB;Integrated Security=True;");
 		}

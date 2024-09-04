@@ -4,7 +4,11 @@ namespace MVC_Project.Reposetory
 {
     public class CourseRepo: ICourseRepo
     {
-        TrainingAppDbContext context = new TrainingAppDbContext();
+        TrainingAppDbContext context;
+        public CourseRepo(TrainingAppDbContext db)
+        {
+            context = db;
+        }
 
         public void Add(Course newCourse)
         {

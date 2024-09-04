@@ -8,7 +8,12 @@ namespace MVC_Project.Controllers
 {
     public class CourseController : Controller
     {
-        ICourseRepo context = new CourseRepo();
+        ICourseRepo context;
+        
+        public CourseController(ICourseRepo courseRepo)
+        {
+            context = courseRepo;
+        }
         public IActionResult Index()
         {
             var courses = context.GetAll();
