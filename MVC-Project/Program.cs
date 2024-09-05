@@ -16,6 +16,7 @@ namespace MVC_Project
             builder.Services.AddDbContext<TrainingAppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("cs")));
 
             builder.Services.AddScoped<ICourseRepo, CourseRepo>();
+            builder.Services.AddScoped<IInstructorRepo, InstructorRepo>();
 
             var app = builder.Build();
 
