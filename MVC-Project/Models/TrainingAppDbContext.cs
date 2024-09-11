@@ -1,8 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using MVC_Project.ViewModels;
+using System.Drawing;
+using System.Dynamic;
 
 namespace MVC_Project.Models
 {
-	public class TrainingAppDbContext : DbContext
+	public class TrainingAppDbContext : IdentityDbContext<ApplicationUser>
 	{
         public TrainingAppDbContext():base()
         {
@@ -18,6 +22,12 @@ namespace MVC_Project.Models
 		}
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
+            #region Note About override OnModelCreating When we inherite from identitydbcontext
+        //    If you check your DbContext class, you’ll see that when you created an MVC app and choose to add.net Core Identity, your ApplicationDbContext class will inherit from IdentityDbContext.Within that parent class, there is some code that is necessary in setting up the Identity database.
+        //When you override OnModelCreating without calling back up to the parent, it means that super-important code never gets called.
+			#endregion
+			base.OnModelCreating(modelBuilder);
+
 			modelBuilder.Entity<Department>()
 				.HasKey(x => x.ID);
 
@@ -68,6 +78,8 @@ namespace MVC_Project.Models
 				.WithMany(x => x.CrsResults)
 				.HasForeignKey(x => x.Crs_ID);
 
+			modelBuilder.Entity<RegisterViewModel>()
+				.HasNoKey();
 
 		}
         public DbSet<Instructor> Instructors { get; set; }
@@ -75,5 +87,6 @@ namespace MVC_Project.Models
         public DbSet<Department> Departments { get; set; }
         public DbSet<Trainee> Trainees { get; set; }
         public DbSet<CrsResult> CrsResults { get; set; }
+	    public DbSet<MVC_Project.ViewModels.RegisterViewModel> RegisterViewModel { get; set; } = default!;
     }
 }

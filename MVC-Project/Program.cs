@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MVC_Project.Models;
 using MVC_Project.Reposetory;
@@ -14,6 +15,11 @@ namespace MVC_Project
             builder.Services.AddControllersWithViews();
             builder.Services.AddSession();
             builder.Services.AddDbContext<TrainingAppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("cs")));
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(op =>
+            {
+                op.Password.RequireNonAlphanumeric = false;
+            })
+                .AddEntityFrameworkStores<TrainingAppDbContext>();
 
             builder.Services.AddScoped<ICourseRepo, CourseRepo>();
             builder.Services.AddScoped<IInstructorRepo, InstructorRepo>();
