@@ -63,8 +63,7 @@
               "RelativeToolTip": "MVC-Project\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T06:53:10.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T06:53:10.326Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "MVC-Project\\Views\\Account\\AddAdmin.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-12T06:51:40.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T06:51:40.803Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "MVC-Project\\Models\\TrainingAppDbContext.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAkwFUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T05:20:06.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T05:20:06.811Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "MVC-Project\\ViewModels\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T05:00:20.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T05:00:20.674Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "MVC-Project\\Program.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAQwCQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T18:21:22.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T18:21:22.179Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "MVC-Project\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T03:01:24.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T03:01:24.215Z"
             }
           ]
         }
