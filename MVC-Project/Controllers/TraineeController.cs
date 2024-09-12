@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MVC_Project.Models;
 using MVC_Project.ViewModels;
 using System.Text.Json;
 namespace MVC_Project.Controllers
 {
+    [Authorize]
     public class TraineeController : Controller
     {
         TrainingAppDbContext Context = new TrainingAppDbContext();

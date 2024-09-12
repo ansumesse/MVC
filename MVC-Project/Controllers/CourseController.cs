@@ -3,9 +3,11 @@ using MVC_Project.Migrations;
 using MVC_Project.Models;
 using MVC_Project.ViewModels;
 using MVC_Project.Reposetory;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MVC_Project.Controllers
 {
+    [Authorize]
     public class CourseController : Controller
     {
         ICourseRepo context;

@@ -80,6 +80,10 @@ namespace MVC_Project.Models
 
 			modelBuilder.Entity<RegisterViewModel>()
 				.HasNoKey();
+			modelBuilder.Entity<LoginViewModel>()
+				.HasNoKey();
+			modelBuilder.Entity<RoleViewModel>()
+				.HasNoKey();
 
 		}
         public DbSet<Instructor> Instructors { get; set; }
@@ -88,5 +92,7 @@ namespace MVC_Project.Models
         public DbSet<Trainee> Trainees { get; set; }
         public DbSet<CrsResult> CrsResults { get; set; }
 	    public DbSet<MVC_Project.ViewModels.RegisterViewModel> RegisterViewModel { get; set; } = default!;
+	    public DbSet<MVC_Project.ViewModels.LoginViewModel> LoginViewModel { get; set; } = default!;
+	    public DbSet<MVC_Project.ViewModels.RoleViewModel> RoleViewModel { get; set; } = default!;
     }
 }

@@ -7,28 +7,28 @@
       "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\views\\shared\\_navpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\views\\account\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\views\\account\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\models\\trainingappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\models\\trainingappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|d:\\edu\\backend\\mvc\\practise\\mvc-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653FDDEE-1D28-498C-BCD9-DBAC7EE45FF1}|MVC-Project\\MVC-Project.csproj|solutionrelative:mvc-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,87 +46,87 @@
               "Title": "_NavPartial.cshtml",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Shared\\_NavPartial.cshtml",
               "RelativeDocumentMoniker": "MVC-Project\\Views\\Shared\\_NavPartial.cshtml",
-              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Shared\\_NavPartial.cshtml",
-              "RelativeToolTip": "MVC-Project\\Views\\Shared\\_NavPartial.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBYAAAB1AAAAAAAAAA==",
+              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Shared\\_NavPartial.cshtml*",
+              "RelativeToolTip": "MVC-Project\\Views\\Shared\\_NavPartial.cshtml*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAB+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-11T18:39:25.783Z",
+              "WhenOpened": "2024-09-12T07:13:44.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MVC-Project\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MVC-Project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MVC-Project\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "MVC-Project\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-11T18:38:50.178Z",
+              "WhenOpened": "2024-09-12T06:53:10.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddAdmin.cshtml",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Account\\AddAdmin.cshtml",
+              "RelativeDocumentMoniker": "MVC-Project\\Views\\Account\\AddAdmin.cshtml",
+              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Account\\AddAdmin.cshtml",
+              "RelativeToolTip": "MVC-Project\\Views\\Account\\AddAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T06:51:40.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrainingAppDbContext.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Models\\TrainingAppDbContext.cs",
+              "RelativeDocumentMoniker": "MVC-Project\\Models\\TrainingAppDbContext.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Models\\TrainingAppDbContext.cs",
+              "RelativeToolTip": "MVC-Project\\Models\\TrainingAppDbContext.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T05:20:06.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "MVC-Project\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "MVC-Project\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T05:00:20.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Program.cs",
               "RelativeDocumentMoniker": "MVC-Project\\Program.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Program.cs",
               "RelativeToolTip": "MVC-Project\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T18:21:22.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "MVC-Project\\Views\\Account\\Register.cshtml",
-              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "MVC-Project\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-11T18:10:09.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TrainingAppDbContext.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Models\\TrainingAppDbContext.cs",
-              "RelativeDocumentMoniker": "MVC-Project\\Models\\TrainingAppDbContext.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Models\\TrainingAppDbContext.cs",
-              "RelativeToolTip": "MVC-Project\\Models\\TrainingAppDbContext.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAkwFEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T18:08:47.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\ViewModels\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "MVC-Project\\ViewModels\\RegisterViewModel.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\ViewModels\\RegisterViewModel.cs",
-              "RelativeToolTip": "MVC-Project\\ViewModels\\RegisterViewModel.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T03:04:31.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "MVC-Project\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\MVC\\Practise\\MVC-Project\\Controllers\\AccountController.cs",
               "RelativeToolTip": "MVC-Project\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T03:01:24.215Z",
               "EditorCaption": ""

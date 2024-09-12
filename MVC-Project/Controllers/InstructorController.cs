@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using MVC_Project.Models;
 using MVC_Project.Reposetory;
 using MVC_Project.ViewModels;
@@ -6,6 +7,7 @@ using System.Net;
 
 namespace MVC_Project.Controllers
 {
+	[Authorize]
 	public class InstructorController : Controller
 	{
 		IInstructorRepo InstructorRepo;
